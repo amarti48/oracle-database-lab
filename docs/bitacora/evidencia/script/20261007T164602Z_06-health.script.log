@@ -1,0 +1,4 @@
+== Esperando a que el contenedor oralab-26ai cambie a estado HEALTHY ==
+== ¡Contenedor oralab-26ai en estado HEALTHY! ==
+CONTAINER ID   IMAGE                                                COMMAND                  CREATED          STATUS                    PORTS                                                                                      NAMES
+fc6605e2465f   container-registry.oracle.com/database/free:latest   "/bin/bash -c $SCRIP…"   10 minutes ago   Up 10 minutes (healthy)   0.0.0.0:1521->1521/tcp, [::]:1521->1521/tcp, 0.0.0.0:8181->8181/tcp, [::]:8181->8181/tcp   oralab-26ai
