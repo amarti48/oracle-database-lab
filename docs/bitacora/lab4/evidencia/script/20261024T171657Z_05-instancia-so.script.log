@@ -1,0 +1,16 @@
+== 1. Procesos de la instancia FREE (docker top = ps dentro del contenedor) ==
+28787               54321               86380               db_pmon_FREE
+28791               54321               83952               db_clmn_FREE
+28795               54321               84624               db_psp0_FREE
+28799               54321               98648               db_vktm_FREE
+28805               54321               87044               db_gen0_FREE
+28809               54321               124340              db_mman_FREE
+28815               54321               84308               db_gen2_FREE
+28817               54321               82992               db_diag_FREE
+28819               54321               89684               db_ofsd_FREE
+28823               54321               90140               db_gwpd_FREE
+28825               54321               118944              db_dbrm_FREE
+28827               54321               83732               db_vkrm_FREE
+28829               54321               113832              db_pman_FREE
+28833               54321               96308               db_dia0_FREE
+28835               54321               148816              db_dbw0_FREE
