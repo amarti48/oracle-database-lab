@@ -1,8 +1,7 @@
 # Runbook — Pérdida de un datafile de aplicación (FREEPDB1)
 
-> Borrador. Ajusta números de archivo, rutas y tiempos con lo que viste en tu evidencia `14d-perdida-datafile`.
 
-**Para:** la persona de guardia, aunque no haya hecho el simulacro. **Duración esperada:** unos minutos (RTO medido: ⟨s⟩).
+**Para:** la persona de guardia, aunque no haya hecho el simulacro. **Duración esperada:** unos minutos (RTO medido en el simulacro D: 14 s; 15 s desde el fallo).
 
 ## 1. Síntoma
 Las consultas a tablas de un tablespace (p. ej. `TBS_ACADEMIA`) fallan con:
@@ -60,5 +59,5 @@ SELECT estado FROM admin_academia.aca_estudiantes WHERE estudiante_id = 104;  --
 - Sin copia RMAN del archivo: escalar.
 
 ## 6. A quién avisar
-Responsable de la base / profesor (⟨nombre⟩) y equipo de la aplicación afectada. Anotar en la bitácora: hora del fallo,
+Responsable de la base de datos (DBA de guardia) y profesor Richard Avilés López y equipo de la aplicación afectada. Anotar en la bitácora: hora del fallo,
 hora de vuelta al servicio (RTO), datos perdidos (RPO) y causa.
