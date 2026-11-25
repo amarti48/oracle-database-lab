@@ -1,0 +1,14 @@
+Copia lab3-final existente: backups/20261022T172949Z_lab3-final
+693M	backups/20261022T172949Z_lab3-final
+total 709252
+-rw-r--r-- 1 alejandrolinux alejandrolinux       328 Oct 22 19:32 SHA256SUMS
+drwxr-xr-x 2 alejandrolinux alejandrolinux      4096 Oct 22 19:29 extras
+-rw-r--r-- 1 alejandrolinux alejandrolinux         0 Oct 22 19:31 extras.lst
+-rw-r--r-- 1 alejandrolinux alejandrolinux      1585 Oct 22 19:31 inventario.txt
+-rw-r--r-- 1 alejandrolinux alejandrolinux       253 Oct 22 19:32 manifiesto.txt
+-rw-r--r-- 1 alejandrolinux alejandrolinux 726250127 Oct 22 19:32 volumen.tar.gz
+== Integridad (SHA-256) ==
+./extras.lst: OK
+./inventario.txt: OK
+./manifiesto.txt: OK
+./volumen.tar.gz: OK
